@@ -170,7 +170,7 @@ body{
   content:"";
   position:absolute;
   inset:0;
-  background:rgba(0,0,0,0.55);
+  background:rgba(0,0,0,0.80);
 }
 
 .service .container{
@@ -210,15 +210,48 @@ body{
 ===================== */
 
 .service-dev{
-  background:url("../images/Software_and_AI_Product_Development.png") center/cover no-repeat;
+  position: relative;
+  overflow: hidden;
+}
+
+.service-dev .bg-video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
 }
 
 .service-ses{
-  background:url("../images/System_Engineering_Service.png") center/cover no-repeat;
+  position: relative;
+  overflow: hidden;
+}
+
+.service-ses .bg-video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
 }
 
 .service-dao{
-  background:url("../images/DAO_consulting.png") center/cover no-repeat;
+  position: relative;
+  overflow: hidden;
+}
+
+.service-dao .bg-video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
 }
 
 /* =====================
