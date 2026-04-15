@@ -328,6 +328,52 @@ body {
 
 
 /* =====================
+  office locations
+===================== */
+
+.office-locations {
+  padding: 80px 0;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: flex-start;
+  gap: 160px;
+}
+
+.container-offices {
+  display: flex;
+  flex: 1;
+  max-width: 600px;
+}
+
+.office-column {
+  width: 50%;
+}
+
+.office-column h3 {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+.office-column h3 span {
+  font-weight: 400;
+}
+
+.office-type {
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.office-address {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+
+/* =====================
   footer
 ===================== */
 
@@ -347,6 +393,7 @@ body {
 }
 
 .footer-nav {
+  padding-top: 30px;
   display: flex;
   gap: 30px;
 }
@@ -359,7 +406,7 @@ body {
 
 .footer-right {
   display: flex;
-  justify-content: flex;
+  justify-content: flex-start;
   align-items: center;
   gap: 20px;
 
