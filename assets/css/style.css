@@ -392,6 +392,41 @@ body {
   margin-bottom: 30px;
 }
 
+.footer-meta-row {
+  display: flex;
+  gap: 160px;
+  margin-top: 40px;
+}
+
+.footer-meta-spacer {
+  flex-shrink: 0;
+  width: 72px;
+}
+
+.footer-meta {
+  display: flex;
+  gap: 0;
+}
+
+.footer-meta-item {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-right: 48px;
+}
+
+.footer-meta-label {
+  font-size: 14px;
+  font-weight: 700;
+  color: #333;
+}
+
+.footer-meta-value {
+  font-size: 14px;
+  color: #333;
+  letter-spacing: 0.03em;
+}
+
 .footer-nav {
   padding-top: 30px;
   display: flex;
